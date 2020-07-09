@@ -12,7 +12,7 @@ class Viaje extends Model
     public function camion(){
         return $this->belongsTo(Camion::Class);
     }
-    public function camionero(){
+    public function camionero(){//jdeoijdded
         return $this->belongsTo(Camionero::Class);
     }
 }
